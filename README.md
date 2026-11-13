@@ -1,4 +1,4 @@
-# jobven-com
+# Jobven
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-jobven-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://jobven.com/
+Jobven provides fresh, structured job postings sourced directly from employer career pages worldwide. By continuously monitoring employer sites, Jobven delivers real-time, AI‑enriched job data that is clean, trustworthy, and ready for integration into job boards, recruiting platforms, analytics tools, and automation workflows. No stale listings, no repost networks – just authentic, up‑to‑date opportunities with rich metadata such as location, salary, skills, and visa sponsorship.
+
+**Areas:** Job Data · API · AI Enriched · Real-time · Employment
+
+## Jobven on APIs.io
+
+Everything profiled for Jobven is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jobven-com/](https://apis.io/providers/jobven-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Jobven API](https://apis.io/apis/jobven-com/api/) — Jobven provides a REST API for accessing real-time job posting data as described in the documentation.
+- [Jobven API](https://apis.io/apis/jobven-com/jobven-com-api/) — Jobven API as documented publicly: 9 operations. Contract generated from the documentation by API Evangelist (2026-11-13); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Jobven Com Webhooks](https://apis.io/asyncapis/jobven-com/jobven-com-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetResponse](https://apis.io/schemas/jobven-com/jobven-com-get-response/)
+- [GetV1PublicCompaniesResponse](https://apis.io/schemas/jobven-com/jobven-com-get-v1-public-companies-response/)
+- [GetV1PublicCompanyProfilesIdResponse](https://apis.io/schemas/jobven-com/jobven-com-get-v1-public-company-profiles-id-response/)
+- [GetV1PublicCompanyProfilesResponse](https://apis.io/schemas/jobven-com/jobven-com-get-v1-public-company-profiles-response/)
+- [GetV1PublicJobsIdResponse](https://apis.io/schemas/jobven-com/jobven-com-get-v1-public-jobs-id-response/)
+- [PostYourWebhookPathRequest](https://apis.io/schemas/jobven-com/jobven-com-post-your-webhook-path-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Jobven Com Context](https://apis.io/jsonld/jobven-com/jobven-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Jobven API Rules](https://apis.io/rules/jobven-com/jobven-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Jobven Authentication](https://apis.io/security/jobven-com/jobven-com-authentication/)
+- [Jobven Domain Security](https://apis.io/security/jobven-com/jobven-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Jobven Plans Pricing](https://apis.io/plans/jobven-com/jobven-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Jobven Rate Limits](https://apis.io/rate-limits/jobven-com/jobven-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://jobven.com/)
+- [Documentation](https://jobven.com/docs)
+- [Getting started](https://jobven.com/docs/getting-started)
+- [API reference](https://jobven.com/docs/reference/overview)
+- [Pricing](https://jobven.com/pricing)
+- [Sign up](https://jobven.com/signup)
+- [Blog](https://jobven.com/blog)
+- [Terms of service](https://jobven.com/terms)
+- [Privacy policy](https://jobven.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 58.8** — strong · rubric 0.27.0 · scored 2026-11-13
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 59.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 50.5 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 63.7 |
+
+**Agent readiness 29.0** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jobven-com/](https://apis.io/providers/jobven-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jobven: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jobven-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
